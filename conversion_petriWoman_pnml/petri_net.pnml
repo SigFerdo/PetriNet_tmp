@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/ptnet">
+    <name>
+        <text> Petri Net </text>
+    </name>
+    <page id="page1">
+        <place id="0">
+            <name>
+                <text>p2</text>
+            </name>
+        </place>
+        <place id="1">
+            <name>
+                <text>p1</text>
+            </name>
+        </place>
+        <transition id="2">
+            <name>
+                <text>t1</text>
+            </name>
+        </transition>
+        <arc id="3" source="t1" target="p2">
+            <inscription>
+                <text>1</text>
+            </inscription>
+        </arc>
+        <arc id="4" source="p1" target="t1">
+            <inscription>
+                <text>1</text>
+            </inscription>
+        </arc>
+    </page>
+  </net>
+</pnml>

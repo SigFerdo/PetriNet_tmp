@@ -1,0 +1,2 @@
+consult("Percorso file").
+process_file("Percorso dove leggere il file txt").
